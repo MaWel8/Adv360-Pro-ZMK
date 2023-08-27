@@ -89,11 +89,11 @@
 
         layer_Symbol_L {
             bindings = <
- &trans           &trans          &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &none            &none          &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &none  &kp RALT(MINUS)  &kp LSHIFT(N7)  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &none           &trans          &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans           &trans          &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans           &trans             &trans          &trans          &trans             &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &none            &none  &kp LSHIFT(SLASH)    &kp RALT(N8)    &kp RALT(N9)          &kp GRAVE            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &none  &kp RALT(MINUS)     &kp LSHIFT(N7)    &kp RALT(N7)    &kp RALT(N0)   &kp LSHIFT(RBRC)            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &none  &kp NON_US_HASH     &kp LSHIFT(N4)  &kp RALT(NUBS)  &kp RALT(RBRC)  &kp LSHIFT(EQUAL)                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans           &trans             &trans          &trans          &trans                               &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -102,7 +102,7 @@
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans             &trans                &trans            &trans            &trans          &trans          &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans     &kp LSHIFT(N1)  &kp NON_US_BACKSLASH  &kp LSHIFT(NUBS)    &kp LSHIFT(N0)  &kp LSHIFT(N6)     &kp RALT(E)
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LSHIFT(MINUS)        &kp LSHIFT(N8)    &kp LSHIFT(N9)         &kp SLASH    &kp RALT(N2)     &kp RALT(Q)
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &kp RIGHT_BRACKET        &kp LSHIFT(N5)    &kp LSHIFT(N2)  &kp LSHIFT(NUHS)       &kp EQUAL  &kp LSHIFT(N3)
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                    &kp RIGHT_BRACE        &kp LSHIFT(N5)    &kp LSHIFT(N2)  &kp LSHIFT(NUHS)       &kp EQUAL  &kp LSHIFT(N3)
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                                   &trans            &trans            &trans          &trans          &trans
             >;
         };
