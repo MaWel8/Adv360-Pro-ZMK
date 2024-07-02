@@ -21,6 +21,10 @@
 #define hyper (LA(LC(LS(LEFT_GUI))))
 #define meh (LA(LC(LEFT_SHIFT)))
 
+&lt {
+    tapping-term-ms = <150>;
+};
+
 / {
     behaviors {
       #include "macros.dtsi"
